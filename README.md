@@ -1,8 +1,6 @@
 # hp-41_isene-rom
-## The most useful of my FOCAL programs
 
-The most useful of my FOCAL programs below is now contained in one 4K ROM
-image – the ISENE.ROM. Here you will find:
+The most useful of my FOCAL programs are contained in one 4K ROM image – the ISENE.ROM. The ROM includes:
 
 * UAC (Ultimate Alarm Clock) - The mother of all alarm clocks with all kinds
   of bells and whistles
