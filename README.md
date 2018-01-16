@@ -20,6 +20,7 @@ image – the ISENE.ROM. Here you will find:
 * DMD - Convert between date formats: MM.DD <-> DD.MM
 * EASTER - Get the date for Easter Sunday for a given year
 * CJC - Calendar date to Julian Date conversions
+* RNG - Random Number Generator based on TIME as the input
 
 Read the pdf manual for a full overview.
 
