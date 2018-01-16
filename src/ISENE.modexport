@@ -9,16 +9,18 @@
   <Key Label="ALM" Kind="RPN"/>
   <Entry i="17" j="4"/>
   <Key Label="CJC" Kind="RPN"/>
-  <Entry i="17" j="42"/>
+  <Entry i="17" j="43"/>
   <Key Label="CRYPT" Kind="RPN"/>
   <Entry i="17" j="23"/>
   <Key Label="CURXMFL" Kind="MCODE"/>
-  <Entry i="17" j="43"/>
+  <Entry i="17" j="45"/>
   <Key Label="D-W" Kind="RPN"/>
   <Entry i="17" j="12"/>
   <Key Label="DECR" Kind="RPN"/>
   <Entry i="17" j="25"/>
   <Key Label="DMD" Kind="RPN"/>
+  <Entry i="17" j="42"/>
+  <Key Label="EASTER" Kind="RPN"/>
   <Entry i="17" j="41"/>
   <Key Label="ENCR" Kind="RPN"/>
   <Entry i="17" j="26"/>
@@ -66,6 +68,8 @@
   <Entry i="17" j="15"/>
   <Key Label="REM" Kind="RPN"/>
   <Entry i="17" j="14"/>
+  <Key Label="RNG" Kind="RPN"/>
+  <Entry i="17" j="44"/>
   <Key Label="SCK" Kind="RPN"/>
   <Entry i="17" j="2"/>
   <Key Label="SKPTACR" Kind="RPN"/>

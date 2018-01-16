@@ -1,4 +1,4 @@
-RPN_SRCS = UAC.rpn WKA.rpn TIMER.rpn DWD.rpn REM.rpn HOURS.rpn NOTES.rpn CRYPT.rpn EVAL.rpn FILEMAN.rpn FILE.rpn LIBXM.rpn LIBHPX.rpn DMD.rpn CJC.rpn
+RPN_SRCS = UAC.rpn WKA.rpn TIMER.rpn DWD.rpn REM.rpn HOURS.rpn NOTES.rpn CRYPT.rpn EVAL.rpn FILEMAN.rpn FILE.rpn LIBXM.rpn LIBHPX.rpn EASTER.rpn DMD.rpn CJC.rpn RNG.rpn
 RPN_RAWS =
 ASM_SRCS = header.s ISENE_support.s
 
