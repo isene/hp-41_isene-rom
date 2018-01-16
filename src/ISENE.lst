@@ -1,0 +1,36 @@
+####################
+#                  #
+# Memories summary #
+#                  #
+####################
+
+Name  Size      Usage   Largest unallocated
+-------------------------------------------
+ISENE 1000      0cf0    030f
+
+
+####################
+#                  #
+# Sections summary #
+#                  #
+####################
+
+Name   Range      Size    MemoryFragments
+-----------------------------------------
+HEADER 0000-0003  0004    ISENE 1
+FAT    0004-0059  0056    ISENE 16
+FATEND 005a-005b  0002    ISENE 1
+RPN    005c-0c9a  0c3f    ISENE 14
+Code   0c9b-0cc1  0027    ISENE 1
+RPN    0cc2-0cda  0019    ISENE 1
+Code   0cdb-0ce4  000a    ISENE 1
+TAIL   0ff4-0ffe  000b    ISENE 1
+
+
+##########################
+#                        #
+# Memory sizes (decimal) #
+#                        #
+##########################
+
+Executable      (Text): 3312 words

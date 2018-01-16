@@ -8,3 +8,5 @@ files and other neat stuff for your HP-41. A must for handling HEPAX files
 and XM files.
 
 Read the pdf manual for a full overview.
+
+This updated version was easily created with Håkan Thörngren's NutStudio.
