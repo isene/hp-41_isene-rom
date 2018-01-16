@@ -1,1 +1,1 @@
-../../../../Cur/HP-41CL/hp-41_isene-rom/src/ISENE.mod
+src/ISENE.mod
