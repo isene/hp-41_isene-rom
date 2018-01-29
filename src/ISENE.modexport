@@ -8,8 +8,6 @@
   <Entry i="17" j="3"/>
   <Key Label="ALM" Kind="RPN"/>
   <Entry i="17" j="4"/>
-  <Key Label="CJC" Kind="RPN"/>
-  <Entry i="17" j="43"/>
   <Key Label="CRYPT" Kind="RPN"/>
   <Entry i="17" j="23"/>
   <Key Label="CURXMFL" Kind="MCODE"/>
@@ -19,43 +17,45 @@
   <Key Label="DECR" Kind="RPN"/>
   <Entry i="17" j="25"/>
   <Key Label="DMD" Kind="RPN"/>
-  <Entry i="17" j="42"/>
+  <Entry i="17" j="43"/>
   <Key Label="EASTER" Kind="RPN"/>
-  <Entry i="17" j="41"/>
+  <Entry i="17" j="29"/>
   <Key Label="ENCR" Kind="RPN"/>
   <Entry i="17" j="26"/>
   <Key Label="EVAL" Kind="RPN"/>
   <Entry i="17" j="27"/>
   <Key Label="FILE" Kind="RPN"/>
-  <Entry i="17" j="29"/>
+  <Entry i="17" j="31"/>
   <Key Label="FILEMAN" Kind="RPN"/>
+  <Entry i="17" j="30"/>
+  <Key Label="FINANCE" Kind="RPN"/>
   <Entry i="17" j="28"/>
   <Key Label="FLSORT" Kind="RPN"/>
-  <Entry i="17" j="31"/>
-  <Key Label="FLSZ+" Kind="RPN"/>
-  <Entry i="17" j="32"/>
-  <Key Label="FLSZ-" Kind="RPN"/>
   <Entry i="17" j="33"/>
+  <Key Label="FLSZ+" Kind="RPN"/>
+  <Entry i="17" j="34"/>
+  <Key Label="FLSZ-" Kind="RPN"/>
+  <Entry i="17" j="35"/>
   <Key Label="HCLR" Kind="RPN"/>
   <Entry i="17" j="19"/>
   <Key Label="HED" Kind="RPN"/>
   <Entry i="17" j="20"/>
   <Key Label="HGETAS" Kind="RPN"/>
-  <Entry i="17" j="38"/>
+  <Entry i="17" j="40"/>
   <Key Label="HGETD" Kind="RPN"/>
-  <Entry i="17" j="39"/>
+  <Entry i="17" j="41"/>
   <Key Label="HOURS" Kind="RPN"/>
   <Entry i="17" j="17"/>
   <Key Label="HRESZFL" Kind="RPN"/>
-  <Entry i="17" j="40"/>
+  <Entry i="17" j="42"/>
   <Key Label="HSAVEAS" Kind="RPN"/>
-  <Entry i="17" j="36"/>
+  <Entry i="17" j="38"/>
   <Key Label="HSAVED" Kind="RPN"/>
-  <Entry i="17" j="37"/>
+  <Entry i="17" j="39"/>
   <Key Label="LIBHPX" Kind="RPN"/>
-  <Entry i="17" j="35"/>
+  <Entry i="17" j="37"/>
   <Key Label="LIBXM" Kind="RPN"/>
-  <Entry i="17" j="30"/>
+  <Entry i="17" j="32"/>
   <Key Label="N+" Kind="RPN"/>
   <Entry i="17" j="22"/>
   <Key Label="NOTES" Kind="RPN"/>
@@ -73,7 +73,7 @@
   <Key Label="SCK" Kind="RPN"/>
   <Entry i="17" j="2"/>
   <Key Label="SKPTACR" Kind="RPN"/>
-  <Entry i="17" j="34"/>
+  <Entry i="17" j="36"/>
   <Key Label="T+" Kind="RPN"/>
   <Entry i="17" j="11"/>
   <Key Label="TIMER" Kind="RPN"/>
