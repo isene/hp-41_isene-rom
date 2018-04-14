@@ -23,3 +23,6 @@ The most useful of my FOCAL programs are contained in one 4K ROM image – the I
 Read the pdf manual for a full overview.
 
 ISENE.ROM was easily created with Håkan Thörngren's NutStudio.
+
+## License
+This software is released into the Public Domain.
