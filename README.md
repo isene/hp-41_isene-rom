@@ -1,6 +1,7 @@
 # hp-41_isene-rom
 
 <img src="img/hp41_isene_rom_logo.svg" align="left" width="150" height="150">
+<br clear="left"/>
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
 [![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
