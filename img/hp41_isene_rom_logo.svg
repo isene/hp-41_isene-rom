@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#18181b"/>
+  
+  <!-- HP-41 Calculator -->
+  <g transform="translate(100, 100)">
+    <!-- Calculator body -->
+    <rect x="-50" y="-60" width="100" height="140" rx="8" fill="#2c2c2c" stroke="#444" stroke-width="2"/>
+    
+    <!-- LCD Display -->
+    <rect x="-45" y="-50" width="90" height="22" rx="3" fill="#0a4d0a" stroke="#333" stroke-width="1"/>
+    <text x="0" y="-35" font-family="monospace" font-size="10" fill="#00ff00" text-anchor="middle">ISENE.ROM 4K</text>
+    
+    <!-- Program menu carousel -->
+    <rect x="-43" y="-25" width="86" height="45" fill="#1a1a1a" stroke="#333" stroke-width="1" rx="2"/>
+    
+    <!-- Programs in ROM with scrolling effect -->
+    <g font-family="monospace" font-size="6" fill="#00ff00">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,-40;0,0" dur="8s" repeatCount="indefinite"/>
+        <text x="-40" y="-15">1: UAC - Ultimate Alarm</text>
+        <text x="-40" y="-8">2: TIMER - Interval Alarm</text>
+        <text x="-40" y="-1">3: D-W-D - Date/Week Conv</text>
+        <text x="-40" y="6">4: REM - Event Manager</text>
+        <text x="-40" y="13">5: HOURS - Time Tracking</text>
+        <text x="-40" y="20">6: CRYPT - Encryption</text>
+        <text x="-40" y="27">7: EVAL - Evaluation</text>
+        <text x="-40" y="34">8: FILE - File Manager</text>
+      </g>
+    </g>
+    
+    <!-- Selection highlight -->
+    <rect x="-43" y="-17" width="86" height="7" fill="none" stroke="#ffd700" stroke-width="1" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- ROM chip indicator -->
+    <rect x="-43" y="25" width="86" height="15" fill="#4a5568" stroke="#666" stroke-width="1" rx="2"/>
+    <text x="0" y="35" font-family="monospace" font-size="7" fill="#fff" text-anchor="middle">4K ROM IMAGE</text>
+    
+    <!-- Keyboard -->
+    <g fill="#1a1a1a" stroke="#666" stroke-width="0.5">
+      <rect x="-40" y="45" width="15" height="10" rx="1"/>
+      <rect x="-22" y="45" width="15" height="10" rx="1"/>
+      <rect x="-4" y="45" width="15" height="10" rx="1"/>
+      <rect x="14" y="45" width="15" height="10" rx="1"/>
+      <rect x="32" y="45" width="15" height="10" rx="1"/>
+    </g>
+    
+    <!-- Key labels -->
+    <g font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">
+      <text x="-32.5" y="52">UAC</text>
+      <text x="-14.5" y="52">TIMER</text>
+      <text x="3.5" y="52">DWD</text>
+      <text x="21.5" y="52">REM</text>
+      <text x="39.5" y="52">HOURS</text>
+    </g>
+  </g>
+  
+  <!-- ROM memory visualization -->
+  <g transform="translate(30, 40)">
+    <text x="0" y="0" font-family="monospace" font-size="8" fill="#fff">ROM Contents</text>
+    
+    <!-- Memory blocks for each program -->
+    <g>
+      <rect x="0" y="5" width="40" height="8" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+      <text x="20" y="11" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">UAC</text>
+      
+      <rect x="0" y="14" width="30" height="8" fill="#f97316" stroke="#ea580c" stroke-width="1"/>
+      <text x="15" y="20" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">TIMER</text>
+      
+      <rect x="0" y="23" width="35" height="8" fill="#eab308" stroke="#ca8a04" stroke-width="1"/>
+      <text x="17.5" y="29" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">D-W-D</text>
+      
+      <rect x="0" y="32" width="38" height="8" fill="#22c55e" stroke="#16a34a" stroke-width="1"/>
+      <text x="19" y="38" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">REM</text>
+      
+      <rect x="0" y="41" width="32" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="1"/>
+      <text x="16" y="47" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">HOURS</text>
+    </g>
+  </g>
+  
+  <!-- Feature highlights -->
+  <g transform="translate(140, 40)">
+    <text x="0" y="0" font-family="monospace" font-size="8" fill="#fff">Features</text>
+    
+    <!-- Feature icons -->
+    <g>
+      <!-- Alarm clock -->
+      <circle cx="10" cy="15" r="8" fill="none" stroke="#ef4444" stroke-width="1.5"/>
+      <line x1="10" y1="15" x2="10" y2="10" stroke="#ef4444" stroke-width="1.5"/>
+      <line x1="10" y1="15" x2="14" y2="15" stroke="#ef4444" stroke-width="1.5"/>
+      <path d="M 6,8 L 6,6 M 14,8 L 14,6" stroke="#ef4444" stroke-width="1.5"/>
+      
+      <!-- Calendar -->
+      <rect x="30" y="10" width="14" height="14" fill="none" stroke="#eab308" stroke-width="1.5" rx="2"/>
+      <line x1="30" y1="14" x2="44" y2="14" stroke="#eab308" stroke-width="1.5"/>
+      <circle cx="35" cy="19" r="1" fill="#eab308"/>
+      <circle cx="39" cy="19" r="1" fill="#eab308"/>
+      
+      <!-- Lock (encryption) -->
+      <rect x="50" y="15" width="10" height="8" fill="none" stroke="#3b82f6" stroke-width="1.5" rx="1"/>
+      <path d="M 52,15 L 52,12 Q 55,9 58,12 L 58,15" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Clock animation for UAC -->
+  <g transform="translate(160, 140)" opacity="0.7">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#666" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-8" stroke="#fff" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="0" x2="5" y2="0" stroke="#fff" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="0" cy="0" r="2" fill="#fff"/>
+    <text x="0" y="25" font-family="monospace" font-size="5" fill="#fff" text-anchor="middle">UAC Active</text>
+  </g>
+  
+  <!-- FOCAL indicator -->
+  <g transform="translate(40, 140)" opacity="0.8">
+    <rect x="0" y="0" width="50" height="20" fill="#374151" stroke="#6b7280" stroke-width="1" rx="3"/>
+    <text x="25" y="8" font-family="monospace" font-size="6" fill="#fff" text-anchor="middle">FOCAL</text>
+    <text x="25" y="16" font-family="monospace" font-size="5" fill="#9ca3af" text-anchor="middle">Programs</text>
+  </g>
+  
+  <!-- Pulse effect around calculator -->
+  <rect x="50" y="40" width="100" height="140" rx="8" fill="none" stroke="#ffd700" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="1;3;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Text -->
+  <text x="100" y="185" font-family="monospace" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">ISENE.ROM</text>
+  <text x="100" y="197" font-family="monospace" font-size="9" fill="#9ca3af" text-anchor="middle">4K FOCAL Program Collection</text>
+</svg>
